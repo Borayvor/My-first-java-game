@@ -75,7 +75,7 @@ public class BesiloSWT
 	{
 		final Shell shell = new Shell (display, SWT.CLOSE);
 		
-		shell.setText ("Игра Бесилка");
+		shell.setText ("РРіСЂР° Р‘РµСЃРёР»РєР°");
 		
 		GridLayout gridLayout = new GridLayout ();
 		
@@ -84,7 +84,7 @@ public class BesiloSWT
 		shell.setLayout (gridLayout);
 		
 		
-		new Label (shell, SWT.NONE).setText ("Въведете (дума/буква):");
+		new Label (shell, SWT.NONE).setText ("Р’СЉРІРµРґРµС‚Рµ (РґСѓРјР°/Р±СѓРєРІР°):");
 		
 		questionField = new Text (shell, SWT.SINGLE | SWT.SIMPLE);
 		
@@ -97,7 +97,7 @@ public class BesiloSWT
 		
 		Label label = new Label (shell, SWT.BEGINNING);
 		
-		label.setText ("Отговор: ");
+		label.setText ("РћС‚РіРѕРІРѕСЂ: ");
 		
 		label.setLayoutData (new GridData (GridData.FILL, GridData.CENTER, true, false));
 		
@@ -110,7 +110,7 @@ public class BesiloSWT
 		
 		final Button submit = new Button (shell, SWT.PUSH);
 		
-		submit.setText ("Въведи дума");
+		submit.setText ("Р’СЉРІРµРґРё РґСѓРјР°");
 		
 		gridData = new GridData (GridData.FILL, GridData.CENTER, true, false);
 		
@@ -175,7 +175,7 @@ public class BesiloSWT
 		});
 		
 		
-		new Label (shell, SWT.NONE).setText ("Бесилка: ");
+		new Label (shell, SWT.NONE).setText ("Р‘РµСЃРёР»РєР°: ");
 		
 		animationImage = new Canvas (shell, SWT.BORDER);
 		
@@ -194,7 +194,7 @@ public class BesiloSWT
 		
 		answerButton = new Button (shell, SWT.PUSH);
 		
-		answerButton.setText ("Въведи буква");
+		answerButton.setText ("Р’СЉРІРµРґРё Р±СѓРєРІР°");
 		
 		gridData = new GridData (GridData.FILL, GridData.CENTER, true, false);
 		
